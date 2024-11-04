@@ -10,8 +10,8 @@ This application enables you to shorten long URLs and generate QR codes effortle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="screenshots/url-shortener-screenshot.png" alt="URL Shortener Screenshot" width="30%" />
+        <img src="screenshots/copy-to-keyboard.png" alt="Copy to Keyboard" width="30%" />
     <img src="screenshots/invalid-test.png" alt="Invalid Test" width="30%" />
-    <img src="screenshots/copy-to-keyboard.png" alt="Copy to Keyboard" width="30%" />
 </div>
 
 👩‍💻 Whether you're a:
