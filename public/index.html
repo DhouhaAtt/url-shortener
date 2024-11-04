@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>URL Shortener</h2>
+    <div class="input-group">
+      <input type="text" id="urlInput" placeholder="Enter your URL here" />
+    </div>
+    <div class="input-group">
+      <button onclick="shortenUrl()">Shorten URL</button>
+    </div>
+    <div id="message" class="message" style="display: none;"></div>
+    <div id="result" class="result" style="display: none;">
+      <div class="short-url">
+        <span class="copy-icon" onclick="copyToClipboard('${data.shortUrl}')">📋</span>
+
+      </div>
+      <img id="qrCodeImage" style="display: none; margin-top: 10px;" alt="QR Code" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
